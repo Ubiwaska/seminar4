@@ -1,0 +1,15 @@
+/Users/polinagalkina/Desktop/seminar4/ex27/bin/Debug/net6.0/ex27
+/Users/polinagalkina/Desktop/seminar4/ex27/bin/Debug/net6.0/ex27.deps.json
+/Users/polinagalkina/Desktop/seminar4/ex27/bin/Debug/net6.0/ex27.runtimeconfig.json
+/Users/polinagalkina/Desktop/seminar4/ex27/bin/Debug/net6.0/ex27.dll
+/Users/polinagalkina/Desktop/seminar4/ex27/bin/Debug/net6.0/ex27.pdb
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.csproj.AssemblyReference.cache
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.GeneratedMSBuildEditorConfig.editorconfig
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.AssemblyInfoInputs.cache
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.AssemblyInfo.cs
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.csproj.CoreCompileInputs.cache
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.dll
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/refint/ex27.dll
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.pdb
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ex27.genruntimeconfig.cache
+/Users/polinagalkina/Desktop/seminar4/ex27/obj/Debug/net6.0/ref/ex27.dll
