@@ -1,27 +1,35 @@
 ﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 Console.Clear();
-
-void FillArray(int[] collection)
+int Prompt(string message)
 {
-int length = collection.Length;
-int index = 0;
-while (index < length)
-{
- collection[index] = new Random().Next(1, 8);
- index++;
+    System.Console.Write(message);
+    string RealInput = System.Console.ReadLine();
+    int result = int.Parse(RealInput);
+    return result;
 }
-}
-void PrintArray(int[]col)
+int[] GenerateArray(int Length, int minValue, int maxValue)
 {
-    int count = col.Length;
-    int position = 0;
-    while (position < count)
+    int[] array = new int[Length];
+    Random random = new Random();
+    for (int i = 0; i < Length; i++)
     {
-        Console.WriteLine(col[position]);
-        position++;
+        array[i] = random.Next(minValue, maxValue +1);
     }
+    return array;
 }
-int[] array = new int[8];
+void PrintArray(int[]array)
+{
+    System.Console.Write("[");
+    for (int i = 0; i < array.Length -1; i++)
+    {
+        System.Console.Write($"{array[i]}, ");
+    }
+    System.Console.Write($"{array[array.Length - 1]}");
+    System.Console.WriteLine("]");
+}
+int length = Prompt(" Array length: ");
+int min = Prompt("Start: ");
+int max = Prompt("Finish: ");
+int[] array = GenerateArray(length, min, max);
 
-FillArray(array);
 PrintArray(array);
